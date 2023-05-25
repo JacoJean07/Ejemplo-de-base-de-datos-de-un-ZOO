@@ -1,0 +1,4 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `SP_S_Zoologicos`()
+BEGIN
+SELECT * FROM zoologicos;
+END
